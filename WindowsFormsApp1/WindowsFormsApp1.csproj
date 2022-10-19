@@ -65,6 +65,12 @@
     <Compile Include="FormLoops.Designer.cs">
       <DependentUpon>FormLoops.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNotas.Designer.cs">
+      <DependentUpon>FormNotas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLoops.resx">
       <DependentUpon>FormLoops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNotas.resx">
+      <DependentUpon>FormNotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

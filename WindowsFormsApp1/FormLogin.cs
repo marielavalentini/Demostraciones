@@ -30,5 +30,10 @@ namespace WindowsFormsApp1
                 MessageBox.Show("El usuario no esta registrado");
             }
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
